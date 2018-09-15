@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>IDAT</title>
+	</head>
+	<body>
+
+		<!-- Esto es un comentario -->
+		<!-- Estos son Titulos -->
+		<h1>Titulo 1</h1>
+		<h2>Titulo 2</h2>
+		<h3>Titulo 3</h3>
+		<h4>Titulo 4</h4>
+		<h5>Titulo 5</h5>
+		
+		<!-- Viñetas 1-->
+		<ul>
+			<li>Contenido 1</li>
+			<li>Contenido 2</li>
+		</ul>
+		 
+		
+		<!-- Viñetas 2-->	
+		<ul>
+			<li>Titulo 1</li>
+			<li>Titulo 2</li>
+			<li>Titulo 3
+				<ul>
+					<li>SubTitulo 1</li>
+					<li>SubTitulo 2</li>
+				</ul>
+			</li>
+		</ul>
+		
+		<!-- Tabla -->
+		
+		<table border="1px">
+			<thead>
+				<tr>
+					<th>Columna 1</th>
+					<th>Columna 2</th>
+					<th>Columna 3</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td>Valor 1</td>
+					<td>Valor 2</td>
+					<td>Valor 3</td>
+				</tr>
+				<tr>
+					<td>Valor 1</td>
+					<td>Valor 2</td>
+					<td>Valor 3</td>
+				</tr>
+				<tr>
+					<td colspan="3">123456789 123456789 123456789</td>
+				</tr>
+			</tbody>
+			
+			<tfoot>
+				<tr>
+					<td colspan="3">3 Filas en la tabla</td>
+				</tr>
+			</tfoot>
+		</table>	
+		
+		<hr>
+		<!-- Formularios -->
+		<form action="pagina2.html" method="get" > 
+		<!-- Method=POST, envia informacion oculta hacia algun destino -->
+		<!-- Method=GET, envia informacion visible en URL hacia algun destino -->
+			<input type="text" id="txtCodigo" name="txtCodigo" />
+			<br>
+			<input type="password" id="txtPassword" name="txtPassword" />
+			<br>
+			<input type="checkbox" id="chkMarca" />
+			<br>
+			<select id="cboSeleccion">
+				<option value="1">Opcion 1</option>
+				<option value="2">Opcion 2</option>
+			</select>
+			<br>
+			<input type="radio" id="rdOpcion1" name="Opciones" />
+			<input type="radio" id="rdOpcion2" name="Opciones" />
+			<br>
+			<input type="button" value="Boton 1" id="btn1" />
+			<input type="submit" value="Boton 2" id="btn2" />
+			
+			<button type="button" id="btn2">Boton 3</button>
+			<button id="btn2">Boton 4</button> <!-- Por defecto SUBMIT -->
+			
+		</form>
+		
+		
+	</body>
+</html>
+
+
+
+
+
+
+
