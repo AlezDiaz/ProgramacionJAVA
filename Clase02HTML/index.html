@@ -1,0 +1,50 @@
+<html lang="es-PE">
+	<head>
+        <meta charset="utf-8">
+		<title>Clase 02 JSP</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!--<script type="text/javascript" src="funciones.js"></script>-->
+		<script type="text/javascript" src="jquery-3.3.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		
+		<script type="text/javascript" src="funcionesJQuery.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container">
+			<div id="contenedorFormulario" class="row">
+				<div class="col-md-4">
+					<span>Codigo:</span>
+					<input class="form-control" type="text" id="txtCodigo" name="txtCodigo" />
+				</div>
+				<div class="col-md-4">
+					<span>Nombre:</span>
+					<input class="form-control" type="text" id="txtNombre" name="txtNombre" />
+				</div>
+				<div class="col-md-4">
+					<span>Apellidos:</span>
+					<input class="form-control" type="text" id="txtApellidos" name="txtApellidos" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<button class="btn btn-info" id="btnGrabar" type="button">Grabar</button>
+					<button class="btn btn-warning" id="btnCambiarDisenio" type="button">Modificar Diseño</button>
+					
+					<button 
+						class="btn btn-danger" 
+						id="btnOcultar" 
+						
+						data-toggle="popover"
+						data-container="body"
+						title="Información"
+						data-content="Click aqui para ocultar el formulario"
+					>Ocultar Formulario</button>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+</html>
